@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "ts-node": "ts-node",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@swc/core": "^1.2.143",
+    "@swc/jest": "^0.2.17",
+    "@types/jest": "^27.4.1",
+    "@types/node": "14.14.31",
+    "jest": "^28.0.0",
     "ts-node": "^10.7.0",
-    "typescript": "^4.6.3",
-    "@types/node": "14.14.31"
-  },
-  "dependencies": {}
+    "typescript": "^4.6.3"
+  }
 }
